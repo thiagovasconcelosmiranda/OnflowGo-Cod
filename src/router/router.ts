@@ -10,6 +10,9 @@ import * as visionController from '../controllers/visionsat';
 import * as neonsatController from '../controllers/neonsat';
 import * as duolsatController from '../controllers/duosat';
 import * as tuningController from '../controllers/tuning';
+import * as systemController from '../controllers/onflowgosystem';
+import * as primeController from '../controllers/onflowgoPrime';
+import * as wholesaleController from '../controllers/wholesale';
 
 export const router = Router();
 
@@ -24,3 +27,6 @@ router.get('/visionsat', visionController.visionsat);
 router.get('/neonsat', neonsatController.neonsat);
 router.get('/duosat', duolsatController.duolsat);
 router.get('/tuning', tuningController.tuning);
+router.get('/onflowgosystem', systemController.system);
+router.get('/onflowgoprime', primeController.prime);
+router.get('/atacado', wholesaleController.wholesale);
