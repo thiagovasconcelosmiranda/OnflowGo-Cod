@@ -10,7 +10,7 @@ import * as visionController from '../controllers/visionsat';
 import * as neonsatController from '../controllers/neonsat';
 import * as duolsatController from '../controllers/duosat';
 import * as tuningController from '../controllers/tuning';
-import * as systemController from '../controllers/onflowgosystem';
+import * as systemController from '../controllers/onflowgoSystem';
 import * as primeController from '../controllers/onflowgoPrime';
 import * as wholesaleController from '../controllers/wholesale';
 
